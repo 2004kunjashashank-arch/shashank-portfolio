@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 import LiveBackground from "./components/LiveBackground";
+import profilePic from "./assets/profile.jpeg";
 
 export default function App() {
   const roles = [
@@ -38,7 +39,7 @@ export default function App() {
     <>
       <LiveBackground />
 
-     {/* HERO */}
+   {/* HERO */}
 <section className="hero">
   <div className="hero-content">
 
@@ -54,11 +55,7 @@ export default function App() {
     </div>
 
     <div className="profile-container">
-      <img
-        src="/profile.jpg"
-        alt="Kunja Shashank"
-        className="profile-pic"
-      />
+      <img src={profilePic} alt="Kunja Shashank" className="profile-pic" />
     </div>
 
   </div>
