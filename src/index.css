@@ -5,10 +5,10 @@
 }
 
 body {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  background: #0b1220;   /* Your dark theme */
-  color: white;
+  margin: 0;
+  min-width: 320px;
   min-height: 100vh;
+  background-color: #000; /* important for dark background */
 }
 
 a {
