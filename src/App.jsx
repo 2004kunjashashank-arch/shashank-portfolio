@@ -55,7 +55,7 @@ export default function App() {
 
           <div className="profile-container">
             <img
-              src="/profile.jpg"
+              src="/WhatsApp Image 2026-02-22 at 15.33.11.jpg"
               alt="Kunja Shashank"
               className="profile-pic"
             />
