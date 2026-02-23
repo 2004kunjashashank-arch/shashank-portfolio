@@ -8,7 +8,7 @@ export default function App() {
     "Data Scientist",
     "Machine Learning Engineer",
     "Data Engineer",
-    "AI Systems Architect"
+    "AI Systems Architect",
   ];
 
   const [text, setText] = useState("");
@@ -38,10 +38,12 @@ export default function App() {
     <>
       <LiveBackground />
 
+      {/* HERO SECTION */}
       <section className="hero">
-        <div className="hero-content">
-          
-          <div className="box">
+        <div className="hero-container">
+
+          {/* LEFT CONTENT */}
+          <div className="hero-text">
             <h1>KUNJA SHASHANK</h1>
 
             <h2 className="typing">
@@ -49,10 +51,13 @@ export default function App() {
               <span className="cursor">|</span>
             </h2>
 
-            <p>I don’t just analyze data, I dominate the market.</p>
+            <p>
+              I don’t just analyze data, I dominate the market.
+            </p>
           </div>
 
-          <div className="profile-container">
+          {/* RIGHT IMAGE */}
+          <div className="hero-image">
             <img
               src="/profile.jpg"
               alt="Kunja Shashank"

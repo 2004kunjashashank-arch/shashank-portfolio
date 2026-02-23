@@ -1,3 +1,11 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #ffffff;
+  background-color: #000;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -5,13 +13,6 @@
 }
 
 body {
-  margin: 0;
-  min-width: 320px;
   min-height: 100vh;
-  background-color: #000; /* important for dark background */
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
+  background-color: #000;
 }
