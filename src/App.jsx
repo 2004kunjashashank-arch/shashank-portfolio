@@ -39,18 +39,30 @@ export default function App() {
       <LiveBackground />
 
       {/* HERO */}
-      <section className="hero">
-        <div className="box">
-          <h1>KUNJA SHASHANK</h1>
+<section className="hero">
+  <div className="hero-content">
 
-          <h2 className="typing">
-            {text}
-            <span className="cursor">|</span>
-          </h2>
+    <div className="box">
+      <h1>KUNJA SHASHANK</h1>
 
-          <p>I don’t just analyze data, I dominate the market.</p>
-        </div>
-      </section>
+      <h2 className="typing">
+        {text}
+        <span className="cursor">|</span>
+      </h2>
+
+      <p>I don’t just analyze data, I dominate the market.</p>
+    </div>
+
+    <div className="profile-container">
+      <img
+        src="/profile.jpg"
+        alt="Kunja Shashank"
+        className="profile-pic"
+      />
+    </div>
+
+  </div>
+</section>
 
       {/* ABOUT */}
       <section className="section">
