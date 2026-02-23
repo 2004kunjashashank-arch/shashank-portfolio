@@ -173,7 +173,7 @@ export default function App() {
           <span>AI</span>
           <span>DBMS</span>
           <span>System Design</span>
-          <span>CGPA: 7.8</span>
+          <span>CGPA: 4.96</span>
         </div>
       </div>
 
