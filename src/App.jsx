@@ -63,7 +63,6 @@ export default function App() {
 
   </div>
 </section>
-
       {/* ABOUT */}
       <section className="section">
         <div className="glass">
