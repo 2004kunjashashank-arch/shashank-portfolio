@@ -42,7 +42,7 @@ export default function LiveBackground() {
 
     async function fetchPrices() {
       try {
-        const res = await fetch(
+        const res = await // fetch(
           "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin,ethereum,solana&vs_currencies=usd"
         );
         const data = await res.json();
