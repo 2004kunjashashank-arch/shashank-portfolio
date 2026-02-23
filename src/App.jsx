@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 import LiveBackground from "./components/LiveBackground";
-import profilePic from "./assets/profile.jpeg";
 
 export default function App() {
   const roles = [
@@ -55,7 +54,7 @@ export default function App() {
     </div>
 
     <div className="profile-container">
-      <img src={profilePic} alt="Kunja Shashank" className="profile-pic" />
+      <img src="/profile.jpeg" alt="Kunja Shashank" className="profile-pic" />
     </div>
 
   </div>
